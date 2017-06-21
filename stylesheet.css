@@ -21,11 +21,11 @@ header{
     display:  flex;
     align-items: center;
     
-    -webkit-transition: background-color 0.25s ease-in-out;
-    -moz-transition: background-color 0.25s ease-in-out;
-    -ms-transition: background-color 0.25s ease-in-out;
-    -o-transition: background-color 0.25s ease-in-out;
-    transition: background-color 0.25s ease-in-out;
+    -webkit-transition: background-color 0.35s ease-in-out;
+    -moz-transition: background-color 0.35s ease-in-out;
+    -ms-transition: background-color 0.35s ease-in-out;
+    -o-transition: background-color 0.35s ease-in-out;
+    transition: background-color 0.35s ease-in-out;
 }
 
 header #left-nav{
@@ -51,7 +51,7 @@ header #left-nav{
 #logo{
     padding: 0;
     height:150px;
-    width: 250px;
+    width: auto;
     
     -webkit-transition: height 0.5s ease-in-out;
     -moz-transition: height 0.5s ease-in-out;
@@ -112,6 +112,7 @@ body {
 }
 
 #catagories{
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,7 +124,7 @@ body {
     max-width: 1500px;
     height: 500px;
     padding: 0px 30px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .catagory{
@@ -197,8 +198,8 @@ body {
     bottom: 0%;
     position: absolute;
     width: 100%;
-    height: 100%;
-    background-color: red;
+    height: 100%;;
+    background: darkseagreen;
 }
 
 .slide-left.animate{
@@ -222,8 +223,8 @@ body {
     bottom: 0%;
     position: absolute;
     width: 100%;
-    height: 100%;
-    background-color: red;
+    height: 100%;;
+    background: darkseagreen;
 }
 
 .slide-right.animate{
@@ -234,7 +235,11 @@ body {
 
 .text-container{
     width: 35%;
-    background: red;
+    padding: 50px;
+    background: darkseagreen;
+}
+.text-container .btn{
+    margin-top: 0px;
 }
 
 @keyframes slideimg{
@@ -249,4 +254,8 @@ body {
     }
 }
 
+#footer{
+    height: 50px;    
+    background-color: gray;
+}
 
